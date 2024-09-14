@@ -1,0 +1,91 @@
+@font-face {
+    font-family: League;
+    src: url(Fonts/League.otf);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbefff;
+}
+
+header {
+    font-family: League, Arial, sans-serif;
+    font-size: 50px;
+    background-color: #3d3d3d;
+    color: goldenrod;
+    text-decoration: none;
+    padding: 0px;
+    text-align: center;
+}
+
+#header-box {
+    /*background-color: hotpink; [USED TO CHECK CLICKABLE AREA]*/
+    color: goldenrod;
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+    height: 15%;
+}
+
+#main-links {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background-color: #5e5e5e;
+    padding: 10px;
+}
+
+#main-links > a {
+    /*background-color: hotpink; [USED TO CHECK CLICKABLE AREA]*/
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 15%;
+}
+
+main {
+    background-color: honeydew;
+    /*adding: 1vh 1vw 1vh 1vw;*/
+    width: 90%;
+    margin: auto;
+}
+
+#main-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#main-content > div > article{
+    padding: 15px;
+}
+
+#main-content > aside{
+    background-color: #dbefff;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #3d3d3d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
