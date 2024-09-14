@@ -60,6 +60,10 @@ main {
     padding: 15px;
 }
 
+#main-content > div > h2{
+    margin-left: 15px;
+}
+
 #main-content > aside{
     background-color: #dbefff;
     padding: 10px;
