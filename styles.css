@@ -9,7 +9,7 @@ body {
     background-color: #dbefff;
 }
 
-header {
+#main-header {
     font-family: League, Arial, sans-serif;
     font-size: 50px;
     background-color: #3d3d3d;
@@ -56,7 +56,6 @@ main {
     justify-content: space-around;
 }
 
-
 #main-content > div > article{
     padding: 15px;
 }
@@ -67,25 +66,71 @@ main {
     padding-right: 20px;
 }
 
-article {
-    margin-bottom: 50px;
+#main-content > aside > section > nav > ul > li{
+    list-style: circle;
+}
+
+#main-content > aside > section > nav > ul > li > a{
+    color: black;
+    text-decoration: none;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 h2 {
     font-size: 30px;
-    color: #333;
 }
 
 p {
     line-height: 1.6;
 }
 
-footer {
+.author-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form{
+    display: block;
+    text-align: center;
+}
+
+#final-footer > section > nav > ul > div > li > a{
+    background-color: #3d3d3d;
+    color:white
+}
+
+#final-footer{
+    font-family: League, Arial, sans-serif;
     background-color: #3d3d3d;
     color: white;
-    text-align: center;
     padding: 10px;
-    position: relative;
     bottom: 0;
     width: 100%;
 }
+
+#end-links{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    list-style: none;
+}
+
+#end-links > div > a{
+    color: goldenrod;
+    text-decoration: none;
+}
+
+#end-links > div > a > h2{
+    font-size: 60px;
+}
+
+#end-links > div > li > a{
+    padding-right: 40px;
+    text-decoration: none;
+} 
